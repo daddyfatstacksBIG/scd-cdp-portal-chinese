@@ -498,8 +498,8 @@ class Dialog extends React.Component {
                         value="1"
                         onChange={this.selectGiveToProxy}
                       />
-                      <span className="checkmark"></span>
-                      将 CDP 转移到以太坊代理合约地址{" "}
+                      <span className="checkmark"></span>将 CDP
+                      转移到以太坊代理合约地址{" "}
                       <TooltipHint tip="这个地址会通过一个代理协议，点击确认将授权通过这个代理转移 CDP。" />
                     </label>
                   </div>
